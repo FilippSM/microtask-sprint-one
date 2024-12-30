@@ -12,7 +12,15 @@ code {
     monospace;
 }
 
-button {
+.AppSprintTwo{
+  display: flex;
+}
+
+.boxTwo {
+  padding: 20px;
+}
+
+/* button {
   border: 1px solid black;
   border-radius: 20px;
   width: 150px;
@@ -21,18 +29,35 @@ button {
   margin: 20px;
 
 
-  /*   выравнивание текста по центру */
+ 
   display: flex;
-  /* Используем flexbox для центрирования */
   justify-content: center;
-  /* Центрируем по горизонтали */
   align-items: center;
-  /* Центрируем по вертикали */
-  /* 
-  стили текста */
+ 
   color: black;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.5;
+} */
+
+
+.boxTwo > div {
+  margin-right: 50px;
+}
+
+.error {
+  border: red 1px solid;
+}
+
+.error-message {
+  color: red;
+}
+
+.active-filter {
+  background-color: aquamarine;
+}
+
+.is-done {
+  opacity: 0.5;
 }
