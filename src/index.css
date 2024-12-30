@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+button {
+  border: 1px solid black;
+  border-radius: 20px;
+  width: 150px;
+  height: 43px;
+  background-color: white;
+  margin: 20px;
+
+
+  /*   выравнивание текста по центру */
+  display: flex;
+  /* Используем flexbox для центрирования */
+  justify-content: center;
+  /* Центрируем по горизонтали */
+  align-items: center;
+  /* Центрируем по вертикали */
+  /* 
+  стили текста */
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.5;
+}
